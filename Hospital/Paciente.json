@@ -1,0 +1,34 @@
+{      
+    "uuid_paciente": "3768e92e-aadd-47da-b1bd-6324c35e59b6",
+    "id_paciente" : "pac101",
+    "nome": "Valdemar Sena Silva da Silva",
+    "data_nascimento": "2008-05-09",
+    "documentos":  {
+        "rg": "12345678",
+        "digito": "9",
+        "cartaoSus": "1234 5678 9101 1122",
+        "cartaoClube": "1234 5678 9101 1122",
+        "cpf": "12345678900"
+    },
+    "contato": {
+        "subcontato1": {
+            "telefone": "11 91234-5678",
+            "whatsapp": true
+        }
+    },
+    "endereco": {
+        "cep": "12345-678",
+        "logradouro": "Rua Exemplo",
+        "numero": "123",
+        "complemento": "Apto 48",
+        "bairro": "Centro",
+        "cidade": "São Paulo",
+        "estado": "SP"
+    },
+    "tipo_sanguineo": "AB+",
+    "convenio": "",
+    "prontuario" : {
+"Alergia1": "Pepino" 
+},
+    "id_receitas" : ["123", "456"]
+}

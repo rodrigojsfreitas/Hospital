@@ -1,0 +1,26 @@
+
+
+{
+
+    "uuid_enfermeira": "027eb257-8070-4bf6-998a-49a4dc732940",
+    "id_medico":"enfsp101",
+    "nome": "Montanha de Oliveira",
+    "data_nascimento": "1980-05-14",
+    "tipo": "E0",
+    "especialidades": [
+        "A"
+    ],
+    "contato": { 
+        "telefone": "944039125",
+        "email": "montemontanha@gmail.com"
+    },
+    "status": "Ativo",
+    "documentos": { 
+        "CPF": "486422876913", 
+        "COREN": "SP123456"
+    },
+    "em_atividade" : true,
+    "fila_de_pacientes" : ["faojafa"],
+    "id_consultas": ["cons101", "cons112"],
+    "id_pacientes": ["pac101", "pac109"]
+}

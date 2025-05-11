@@ -1,0 +1,11 @@
+{
+    "id_medicamento": "fhai3123",
+    "medicamento": "medicamento A",
+    "tipo_receita" : "comum",
+    "dosagem" : "150mg",
+    "tarja": "Vermelha",
+    "restricoes": "Uso sob prescrição",
+    "via" : "anal",
+    "dosagem_maxima": "500mg/dia"
+    }
+    

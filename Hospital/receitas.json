@@ -1,0 +1,32 @@
+{
+    "id_receita" : "123",
+    "nome_medico":"Kaique Rocha",
+    "documento":{"CRM": "fankfa321"},
+    "nome_paciente": "Ronielson da Silva",
+    "id_responsaveis" : "famkl2313",
+    "id_paciente": "paciente123",
+    "data_prescrição": "2004-03-10",
+    "data_validade" : "2004-04-10",
+    "medicamentos": [
+      {
+        "id": "remedio123",
+        "dosagem": "150mg",
+        "via" : "anal",
+        "frequencia": "1 comprimido a cada 8 horas",
+        "duracao": "7 dias"
+      },
+      {
+        "id": "remedio456",
+        "dosagem": "150mg",
+        "via" : "oral",
+        "frequencia": "1 comprimido a cada 8 horas",
+        "duracao": "5 dias"
+      }
+    ],
+    "observação" : "não tomar alcoól nos primeiros 15 dias",
+    "dispensação": {
+      "data": "2004-03-11",
+      "farmacia": "Farmacia XYZ",
+      "responsavel": "Farmacêutico João"
+    }
+    }

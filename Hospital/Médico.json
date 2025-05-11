@@ -1,0 +1,23 @@
+{
+    "uuid_medico": "12bb4a36-0e31-44ef-ba03-780d6bf33d0f",
+    "id_medico":"medsp101",
+    "nome": "Letícia de Oliveira",
+    "data_nascimento": "1980-05-14",
+"tipo": "M0",
+"especialidades": [
+        "A"
+    ],
+    "contato": { 
+        "telefone": "(11) 944039125",
+        "email": "leticiaoliveira@gmail.com"
+    },
+    "status": "Ativo",
+    "em_atividade": true,
+    "fila_de_pacientes" : ["pac101"],
+    "documentos": { 
+        "CPF": "21974148874", 
+        "CRM": "SP987654"
+    },
+    "id_consultas": ["pac101", "pac109"],
+     "id_pacientes": ["pac101", "pac109"]
+}

@@ -1,0 +1,15 @@
+{
+    "paciente_id": "8a24h1b5d9931b5b00ajel4g",
+    "id_responsavel": ["5f8b3b9bew36b1f1c1f1opj"],
+    "data_entrada": "2021-04-10T08:00:00I",
+    "data_prevista_alta": "2021-04-15T10:00:00I",
+    "data_efetiva_alta": "2021-04-14T12:00:00I",
+    "procedimentos": {
+        "Procedimento":"PD1","Exame":"TGO"},
+
+    "quarto_id": "",
+    "id_enfermeiros": [
+        "CRE03734",
+        "CRE88251"
+    ]
+}
