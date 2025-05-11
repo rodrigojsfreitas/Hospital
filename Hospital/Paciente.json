@@ -1,34 +1,376 @@
-{      
-    "uuid_paciente": "3768e92e-aadd-47da-b1bd-6324c35e59b6",
-    "id_paciente" : "pac101",
-    "nome": "Valdemar Sena Silva da Silva",
-    "data_nascimento": "2008-05-09",
-    "documentos":  {
-        "rg": "12345678",
-        "digito": "9",
-        "cartaoSus": "1234 5678 9101 1122",
-        "cartaoClube": "1234 5678 9101 1122",
-        "cpf": "12345678900"
+[
+    {
+        "uuid_paciente": "3768e92e-aadd-47da-b1bd-6324c35e59b6",
+        "id_paciente": "pac101",
+        "nome": "Valdemar Sena Silva da Silva",
+        "data_nascimento": "2008-05-09",
+        "documentos": {
+            "rg": "12345678",
+            "digito": "9",
+            "cartaoSus": "1234 5678 9101 1122",
+            "cartaoClube": "1234 5678 9101 1122",
+            "cpf": "12345678900"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "11 91234-5678",
+                "whatsapp": true
+            }
+        },
+        "endereco": {
+            "cep": "12345-678",
+            "logradouro": "Rua Exemplo",
+            "numero": "123",
+            "complemento": "Apto 48",
+            "bairro": "Centro",
+            "cidade": "São Paulo",
+            "estado": "SP"
+        },
+        "tipo_sanguineo": "AB+",
+        "convenio": "",
+        "prontuario": {
+            "Alergia1": "Pepino"
+        },
+        "id_receitas": ["123", "456"]
     },
-    "contato": {
-        "subcontato1": {
-            "telefone": "11 91234-5678",
-            "whatsapp": true
-        }
+    {
+        "uuid_paciente": "b1a1e92e-bbdd-47da-b1bd-6324c35e59b7",
+        "id_paciente": "pac102",
+        "nome": "Maria Oliveira Souza",
+        "data_nascimento": "1990-02-15",
+        "documentos": {
+            "rg": "23456789",
+            "digito": "1",
+            "cartaoSus": "2234 5678 9101 1122",
+            "cartaoClube": "2234 5678 9101 1122",
+            "cpf": "23456789011"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "21 92345-6789",
+                "whatsapp": false
+            }
+        },
+        "endereco": {
+            "cep": "23456-789",
+            "logradouro": "Avenida Brasil",
+            "numero": "456",
+            "complemento": "Casa",
+            "bairro": "Jardim",
+            "cidade": "Rio de Janeiro",
+            "estado": "RJ"
+        },
+        "tipo_sanguineo": "O-",
+        "convenio": "Unimed",
+        "prontuario": {
+            "Alergia1": "Nenhuma"
+        },
+        "id_receitas": ["789"]
     },
-    "endereco": {
-        "cep": "12345-678",
-        "logradouro": "Rua Exemplo",
-        "numero": "123",
-        "complemento": "Apto 48",
-        "bairro": "Centro",
-        "cidade": "São Paulo",
-        "estado": "SP"
+    {
+        "uuid_paciente": "c2b2e92e-ccdd-47da-b1bd-6324c35e59b8",
+        "id_paciente": "pac103",
+        "nome": "João Pedro Lima",
+        "data_nascimento": "1985-09-23",
+        "documentos": {
+            "rg": "34567890",
+            "digito": "2",
+            "cartaoSus": "3234 5678 9101 1122",
+            "cartaoClube": "3234 5678 9101 1122",
+            "cpf": "34567890122"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "31 93456-7890",
+                "whatsapp": true
+            }
+        },
+        "endereco": {
+            "cep": "34567-890",
+            "logradouro": "Rua das Flores",
+            "numero": "789",
+            "complemento": "",
+            "bairro": "Vila Nova",
+            "cidade": "Belo Horizonte",
+            "estado": "MG"
+        },
+        "tipo_sanguineo": "A+",
+        "convenio": "Amil",
+        "prontuario": {
+            "Alergia1": "Lactose"
+        },
+        "id_receitas": ["321", "654"]
     },
-    "tipo_sanguineo": "AB+",
-    "convenio": "",
-    "prontuario" : {
-"Alergia1": "Pepino" 
-},
-    "id_receitas" : ["123", "456"]
-}
+    {
+        "uuid_paciente": "d3c3e92e-dddd-47da-b1bd-6324c35e59b9",
+        "id_paciente": "pac104",
+        "nome": "Ana Paula Mendes",
+        "data_nascimento": "1978-12-30",
+        "documentos": {
+            "rg": "45678901",
+            "digito": "3",
+            "cartaoSus": "4234 5678 9101 1122",
+            "cartaoClube": "4234 5678 9101 1122",
+            "cpf": "45678901233"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "41 94567-8901",
+                "whatsapp": false
+            }
+        },
+        "endereco": {
+            "cep": "45678-901",
+            "logradouro": "Rua do Sol",
+            "numero": "321",
+            "complemento": "Sala 2",
+            "bairro": "Centro",
+            "cidade": "Curitiba",
+            "estado": "PR"
+        },
+        "tipo_sanguineo": "B-",
+        "convenio": "",
+        "prontuario": {
+            "Alergia1": "Amendoim"
+        },
+        "id_receitas": []
+    },
+    {
+        "uuid_paciente": "e4d4e92e-eedd-47da-b1bd-6324c35e59c0",
+        "id_paciente": "pac105",
+        "nome": "Carlos Eduardo Silva",
+        "data_nascimento": "2000-07-11",
+        "documentos": {
+            "rg": "56789012",
+            "digito": "4",
+            "cartaoSus": "5234 5678 9101 1122",
+            "cartaoClube": "5234 5678 9101 1122",
+            "cpf": "56789012344"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "51 95678-9012",
+                "whatsapp": true
+            }
+        },
+        "endereco": {
+            "cep": "56789-012",
+            "logradouro": "Avenida Central",
+            "numero": "654",
+            "complemento": "",
+            "bairro": "Centro",
+            "cidade": "Porto Alegre",
+            "estado": "RS"
+        },
+        "tipo_sanguineo": "O+",
+        "convenio": "SulAmérica",
+        "prontuario": {
+            "Alergia1": "Nenhuma"
+        },
+        "id_receitas": ["987"]
+    },
+    {
+        "uuid_paciente": "f5e5e92e-ffee-47da-b1bd-6324c35e59c1",
+        "id_paciente": "pac106",
+        "nome": "Fernanda Costa",
+        "data_nascimento": "1995-03-18",
+        "documentos": {
+            "rg": "67890123",
+            "digito": "5",
+            "cartaoSus": "6234 5678 9101 1122",
+            "cartaoClube": "6234 5678 9101 1122",
+            "cpf": "67890123455"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "61 96789-0123",
+                "whatsapp": false
+            }
+        },
+        "endereco": {
+            "cep": "67890-123",
+            "logradouro": "Rua das Palmeiras",
+            "numero": "987",
+            "complemento": "Bloco B",
+            "bairro": "Jardim América",
+            "cidade": "Brasília",
+            "estado": "DF"
+        },
+        "tipo_sanguineo": "A-",
+        "convenio": "",
+        "prontuario": {
+            "Alergia1": "Glúten"
+        },
+        "id_receitas": []
+    },
+    {
+        "uuid_paciente": "a6f6e92e-aaff-47da-b1bd-6324c35e59c2",
+        "id_paciente": "pac107",
+        "nome": "Ricardo Alves",
+        "data_nascimento": "1982-11-05",
+        "documentos": {
+            "rg": "78901234",
+            "digito": "6",
+            "cartaoSus": "7234 5678 9101 1122",
+            "cartaoClube": "7234 5678 9101 1122",
+            "cpf": "78901234566"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "71 97890-1234",
+                "whatsapp": true
+            }
+        },
+        "endereco": {
+            "cep": "78901-234",
+            "logradouro": "Rua do Comércio",
+            "numero": "159",
+            "complemento": "",
+            "bairro": "Centro",
+            "cidade": "Salvador",
+            "estado": "BA"
+        },
+        "tipo_sanguineo": "B+",
+        "convenio": "Bradesco Saúde",
+        "prontuario": {
+            "Alergia1": "Nenhuma"
+        },
+        "id_receitas": ["852"]
+    },
+    {
+        "uuid_paciente": "b7a7e92e-bbff-47da-b1bd-6324c35e59c3",
+        "id_paciente": "pac108",
+        "nome": "Patrícia Ramos",
+        "data_nascimento": "1975-08-22",
+        "documentos": {
+            "rg": "89012345",
+            "digito": "7",
+            "cartaoSus": "8234 5678 9101 1122",
+            "cartaoClube": "8234 5678 9101 1122",
+            "cpf": "89012345677"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "81 98901-2345",
+                "whatsapp": false
+            }
+        },
+        "endereco": {
+            "cep": "89012-345",
+            "logradouro": "Rua das Acácias",
+            "numero": "753",
+            "complemento": "Casa",
+            "bairro": "Boa Vista",
+            "cidade": "Recife",
+            "estado": "PE"
+        },
+        "tipo_sanguineo": "AB-",
+        "convenio": "",
+        "prontuario": {
+            "Alergia1": "Frutos do mar"
+        },
+        "id_receitas": []
+    },
+    {
+        "uuid_paciente": "c8b8e92e-ccff-47da-b1bd-6324c35e59c4",
+        "id_paciente": "pac109",
+        "nome": "Lucas Martins",
+        "data_nascimento": "2002-04-10",
+        "documentos": {
+            "rg": "90123456",
+            "digito": "8",
+            "cartaoSus": "9234 5678 9101 1122",
+            "cartaoClube": "9234 5678 9101 1122",
+            "cpf": "90123456788"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "91 99012-3456",
+                "whatsapp": true
+            }
+        },
+        "endereco": {
+            "cep": "90123-456",
+            "logradouro": "Avenida das Nações",
+            "numero": "852",
+            "complemento": "",
+            "bairro": "Centro",
+            "cidade": "Belém",
+            "estado": "PA"
+        },
+        "tipo_sanguineo": "O+",
+        "convenio": "Hapvida",
+        "prontuario": {
+            "Alergia1": "Nenhuma"
+        },
+        "id_receitas": ["963"]
+    },
+    {
+        "uuid_paciente": "d9c9e92e-ddff-47da-b1bd-6324c35e59c5",
+        "id_paciente": "pac110",
+        "nome": "Juliana Ferreira",
+        "data_nascimento": "1998-06-27",
+        "documentos": {
+            "rg": "01234567",
+            "digito": "0",
+            "cartaoSus": "0234 5678 9101 1122",
+            "cartaoClube": "0234 5678 9101 1122",
+            "cpf": "01234567899"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "31 90123-4567",
+                "whatsapp": false
+            }
+        },
+        "endereco": {
+            "cep": "01234-567",
+            "logradouro": "Rua Nova",
+            "numero": "951",
+            "complemento": "Apto 12",
+            "bairro": "Centro",
+            "cidade": "Belo Horizonte",
+            "estado": "MG"
+        },
+        "tipo_sanguineo": "A+",
+        "convenio": "",
+        "prontuario": {
+            "Alergia1": "Dipirona"
+        },
+        "id_receitas": []
+    },
+    {
+        "uuid_paciente": "e0d0e92e-eeff-47da-b1bd-6324c35e59c6",
+        "id_paciente": "pac111",
+        "nome": "Gabriel Souza",
+        "data_nascimento": "2005-01-19",
+        "documentos": {
+            "rg": "11223344",
+            "digito": "2",
+            "cartaoSus": "1234 5678 9101 1133",
+            "cartaoClube": "1234 5678 9101 1133",
+            "cpf": "11223344556"
+        },
+        "contato": {
+            "subcontato1": {
+                "telefone": "21 91234-5678",
+                "whatsapp": true
+            }
+        },
+        "endereco": {
+            "cep": "11223-344",
+            "logradouro": "Rua Esperança",
+            "numero": "321",
+            "complemento": "",
+            "bairro": "Vila Real",
+            "cidade": "Niterói",
+            "estado": "RJ"
+        },
+        "tipo_sanguineo": "B+",
+        "convenio": "",
+        "prontuario": {
+            "Alergia1": "Nenhuma"
+        },
+        "id_receitas": ["741"]
+    }
+]

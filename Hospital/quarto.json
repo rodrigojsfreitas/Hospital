@@ -1,21 +1,169 @@
-{
-          "id_quarto": "Q101",
-      "numero": "101",
-      "ala": "Enfermaria",
-      "tipo": "Individual",
-      "capacidade": 1,
-      "Disponível": false,
-      "equipamentos": ["Monitor cardíaco", "Oxigênio"],
-      "id_enfermeiros": ["CRE03734", "CRE88251"],
-      "limpeza_status": "Limpo",
-      "ultima_limpeza": "2025-04-16T10:00:00Z",
-      "historico_ocupacao": [
-        {
-          "id_paciente": "paciente123",
-          "data_entrada": "2025-04-10T08:00:00Z",
-          "data_saida": "2025-04-12T12:00:00Z"
-        }
-      ]
-    }
-    
-    
+[
+  {
+    "id_quarto": "Q101",
+    "numero": "101",
+    "ala": "Enfermaria",
+    "tipo": "Individual",
+    "capacidade": 1,
+    "Disponível": false,
+    "equipamentos": ["Monitor cardíaco", "Oxigênio"],
+    "id_enfermeiros": ["CRE03734", "CRE88251"],
+    "limpeza_status": "Limpo",
+    "ultima_limpeza": "2025-04-16T10:00:00Z",
+    "historico_ocupacao": [
+      {
+        "id_paciente": "paciente123",
+        "data_entrada": "2025-04-10T08:00:00Z",
+        "data_saida": "2025-04-12T12:00:00Z"
+      }
+    ]
+  },
+  {
+    "id_quarto": "Q102",
+    "numero": "102",
+    "ala": "Enfermaria",
+    "tipo": "Duplo",
+    "capacidade": 2,
+    "Disponível": true,
+    "equipamentos": ["Oxigênio"],
+    "id_enfermeiros": ["CRE12345", "CRE67890"],
+    "limpeza_status": "Limpo",
+    "ultima_limpeza": "2025-04-15T09:00:00Z",
+    "historico_ocupacao": []
+  },
+  {
+    "id_quarto": "Q103",
+    "numero": "103",
+    "ala": "UTI",
+    "tipo": "Individual",
+    "capacidade": 1,
+    "Disponível": true,
+    "equipamentos": ["Monitor cardíaco", "Oxigênio", "Ventilador"],
+    "id_enfermeiros": ["CRE11111", "CRE22222"],
+    "limpeza_status": "Limpo",
+    "ultima_limpeza": "2025-04-16T08:00:00Z",
+    "historico_ocupacao": []
+  },
+  {
+    "id_quarto": "Q104",
+    "numero": "104",
+    "ala": "Enfermaria",
+    "tipo": "Duplo",
+    "capacidade": 2,
+    "Disponível": false,
+    "equipamentos": ["Oxigênio"],
+    "id_enfermeiros": ["CRE33333", "CRE44444"],
+    "limpeza_status": "Sujo",
+    "ultima_limpeza": "2025-04-14T11:00:00Z",
+    "historico_ocupacao": [
+      {
+        "id_paciente": "paciente456",
+        "data_entrada": "2025-04-13T10:00:00Z",
+        "data_saida": null
+      }
+    ]
+  },
+  {
+    "id_quarto": "Q105",
+    "numero": "105",
+    "ala": "UTI",
+    "tipo": "Individual",
+    "capacidade": 1,
+    "Disponível": true,
+    "equipamentos": ["Monitor cardíaco"],
+    "id_enfermeiros": ["CRE55555"],
+    "limpeza_status": "Limpo",
+    "ultima_limpeza": "2025-04-16T07:00:00Z",
+    "historico_ocupacao": []
+  },
+  {
+    "id_quarto": "Q106",
+    "numero": "106",
+    "ala": "Enfermaria",
+    "tipo": "Coletivo",
+    "capacidade": 4,
+    "Disponível": true,
+    "equipamentos": [],
+    "id_enfermeiros": ["CRE66666", "CRE77777"],
+    "limpeza_status": "Limpo",
+    "ultima_limpeza": "2025-04-15T13:00:00Z",
+    "historico_ocupacao": []
+  },
+  {
+    "id_quarto": "Q107",
+    "numero": "107",
+    "ala": "Enfermaria",
+    "tipo": "Duplo",
+    "capacidade": 2,
+    "Disponível": false,
+    "equipamentos": ["Oxigênio"],
+    "id_enfermeiros": ["CRE88888"],
+    "limpeza_status": "Sujo",
+    "ultima_limpeza": "2025-04-13T15:00:00Z",
+    "historico_ocupacao": [
+      {
+        "id_paciente": "paciente789",
+        "data_entrada": "2025-04-12T09:00:00Z",
+        "data_saida": null
+      }
+    ]
+  },
+  {
+    "id_quarto": "Q108",
+    "numero": "108",
+    "ala": "UTI",
+    "tipo": "Individual",
+    "capacidade": 1,
+    "Disponível": true,
+    "equipamentos": ["Monitor cardíaco", "Ventilador"],
+    "id_enfermeiros": ["CRE99999"],
+    "limpeza_status": "Limpo",
+    "ultima_limpeza": "2025-04-16T06:00:00Z",
+    "historico_ocupacao": []
+  },
+  {
+    "id_quarto": "Q109",
+    "numero": "109",
+    "ala": "Enfermaria",
+    "tipo": "Coletivo",
+    "capacidade": 4,
+    "Disponível": true,
+    "equipamentos": [],
+    "id_enfermeiros": ["CRE10101", "CRE20202"],
+    "limpeza_status": "Limpo",
+    "ultima_limpeza": "2025-04-15T12:00:00Z",
+    "historico_ocupacao": []
+  },
+  {
+    "id_quarto": "Q110",
+    "numero": "110",
+    "ala": "Enfermaria",
+    "tipo": "Duplo",
+    "capacidade": 2,
+    "Disponível": true,
+    "equipamentos": ["Oxigênio"],
+    "id_enfermeiros": ["CRE30303"],
+    "limpeza_status": "Limpo",
+    "ultima_limpeza": "2025-04-15T10:00:00Z",
+    "historico_ocupacao": []
+  },
+  {
+    "id_quarto": "Q111",
+    "numero": "111",
+    "ala": "UTI",
+    "tipo": "Individual",
+    "capacidade": 1,
+    "Disponível": false,
+    "equipamentos": ["Monitor cardíaco", "Oxigênio", "Ventilador"],
+    "id_enfermeiros": ["CRE40404"],
+    "limpeza_status": "Sujo",
+    "ultima_limpeza": "2025-04-14T08:00:00Z",
+    "historico_ocupacao": [
+      {
+        "id_paciente": "paciente321",
+        "data_entrada": "2025-04-13T11:00:00Z",
+        "data_saida": null
+      }
+    ]
+  }
+]

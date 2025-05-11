@@ -1,11 +1,112 @@
-{
-    "id_medicamento": "fhai3123",
-    "medicamento": "medicamento A",
-    "tipo_receita" : "comum",
-    "dosagem" : "150mg",
-    "tarja": "Vermelha",
-    "restricoes": "Uso sob prescrição",
-    "via" : "anal",
-    "dosagem_maxima": "500mg/dia"
+[
+    {
+        "id_medicamento": "fhai3123",
+        "medicamento": "medicamento A",
+        "tipo_receita": "comum",
+        "dosagem": "150mg",
+        "tarja": "Vermelha",
+        "restricoes": "Uso sob prescrição",
+        "via": "retal",
+        "dosagem_maxima": "500mg/dia"
+    },
+    {
+        "id_medicamento": "bgtu4567",
+        "medicamento": "medicamento B",
+        "tipo_receita": "controlada",
+        "dosagem": "10mg",
+        "tarja": "Preta",
+        "restricoes": "Venda sob retenção de receita",
+        "via": "oral",
+        "dosagem_maxima": "40mg/dia"
+    },
+    {
+        "id_medicamento": "kplo8910",
+        "medicamento": "medicamento C",
+        "tipo_receita": "comum",
+        "dosagem": "500mg",
+        "tarja": "Amarela",
+        "restricoes": "Uso adulto",
+        "via": "oral",
+        "dosagem_maxima": "2000mg/dia"
+    },
+    {
+        "id_medicamento": "zxcv1122",
+        "medicamento": "medicamento D",
+        "tipo_receita": "comum",
+        "dosagem": "20mg",
+        "tarja": "Vermelha",
+        "restricoes": "Uso pediátrico",
+        "via": "oral",
+        "dosagem_maxima": "60mg/dia"
+    },
+    {
+        "id_medicamento": "qwer3344",
+        "medicamento": "medicamento E",
+        "tipo_receita": "controlada",
+        "dosagem": "2mg",
+        "tarja": "Preta",
+        "restricoes": "Uso restrito hospitalar",
+        "via": "intravenosa",
+        "dosagem_maxima": "8mg/dia"
+    },
+    {
+        "id_medicamento": "tyui5566",
+        "medicamento": "medicamento F",
+        "tipo_receita": "comum",
+        "dosagem": "250mg",
+        "tarja": "Amarela",
+        "restricoes": "Uso sob prescrição",
+        "via": "oral",
+        "dosagem_maxima": "1000mg/dia"
+    },
+    {
+        "id_medicamento": "asdf7788",
+        "medicamento": "medicamento G",
+        "tipo_receita": "comum",
+        "dosagem": "5mg",
+        "tarja": "Vermelha",
+        "restricoes": "Uso contínuo",
+        "via": "oral",
+        "dosagem_maxima": "20mg/dia"
+    },
+    {
+        "id_medicamento": "ghjk9900",
+        "medicamento": "medicamento H",
+        "tipo_receita": "controlada",
+        "dosagem": "50mg",
+        "tarja": "Preta",
+        "restricoes": "Venda sob retenção de receita",
+        "via": "intramuscular",
+        "dosagem_maxima": "200mg/dia"
+    },
+    {
+        "id_medicamento": "lmno2233",
+        "medicamento": "medicamento I",
+        "tipo_receita": "comum",
+        "dosagem": "100mg",
+        "tarja": "Amarela",
+        "restricoes": "Uso adulto",
+        "via": "oral",
+        "dosagem_maxima": "400mg/dia"
+    },
+    {
+        "id_medicamento": "pqrs4455",
+        "medicamento": "medicamento J",
+        "tipo_receita": "comum",
+        "dosagem": "75mg",
+        "tarja": "Vermelha",
+        "restricoes": "Uso sob prescrição",
+        "via": "oral",
+        "dosagem_maxima": "300mg/dia"
+    },
+    {
+        "id_medicamento": "uvwx6677",
+        "medicamento": "medicamento K",
+        "tipo_receita": "controlada",
+        "dosagem": "1mg",
+        "tarja": "Preta",
+        "restricoes": "Uso restrito hospitalar",
+        "via": "intravenosa",
+        "dosagem_maxima": "4mg/dia"
     }
-    
+]
