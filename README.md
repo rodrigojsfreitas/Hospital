@@ -20,7 +20,7 @@ O projeto contém arquivos que representam as principais entidades de um hospita
 
 ## 📊 Diagrama 
 
-![Diagrama](img/imageDiagrama.png)
+![Diagrama](./img/imageDiagrama.png)
 
 ---
 
