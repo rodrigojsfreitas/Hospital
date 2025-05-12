@@ -38,4 +38,8 @@ Este projeto serve como base para estudos, prototipagem e testes de aplicações
 
 ---
 
+## [🎯 Instruções da atividade](./atividade.md)
+
+---
+
 > Os dados são fictícios e servem apenas para fins educacionais.
