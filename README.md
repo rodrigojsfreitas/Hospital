@@ -18,6 +18,10 @@ O projeto contém arquivos que representam as principais entidades de um hospita
 - **estoque.json**: Controle de medicamentos disponíveis, dosagens, tarjas e restrições.
 - **quarto.json**: Gerenciamento dos quartos, ocupação, equipamentos, limpeza e histórico.
 
+## 📊 Diagrama 
+
+![Diagrama](img/imagemDiagrama.png)
+
 ---
 
 ## 💡 Objetivo
@@ -34,11 +38,4 @@ Este projeto serve como base para estudos, prototipagem e testes de aplicações
 
 ---
 
-## 📑 Observações
-
-- Os arquivos estão em formato **JSON** puro, sem comentários nativos.
-- Os dados são fictícios e servem apenas para fins educacionais.
-
----
-
-> Sinta-se à vontade para explorar, adaptar e evoluir este projeto conforme suas necessidades!
+> Os dados são fictícios e servem apenas para fins educacionais.
