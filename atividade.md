@@ -1,4 +1,4 @@
-# Formulário
+# 📝 Formulário
 ---
 ## Parte 1 - Mãos a Obra
 Analise a seguinte descrição e extraia dela os requisitos para o banco de dados em um diagrama, fluxograma ou afins:<BR>
@@ -97,7 +97,7 @@ Crie um script e nele inclua consultas que retornem:
 11. Os nomes, CORENs e número de internações de enfermeiros que participaram de mais de uma internação.
 
 ---
-# Teams
+# 💻 Teams
 
 ## Título da Tarefa: O Hospital Fundamental
 ## Introdução à Tarefa
