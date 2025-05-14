@@ -8,7 +8,6 @@
     
   ![](https://img.shields.io/badge/Database-NoSQL-00C4CC?style=for-the-badge&logo=mongodb&logoColor=white)
   ![](https://img.shields.io/badge/Format-JSON-F7DF1E?style=for-the-badge&logo=json&logoColor=black)
-  ![](https://img.shields.io/badge/Status-Active-4CAF50?style=for-the-badge)
   ![](https://img.shields.io/badge/Last_Updated-May_2025-FF5722?style=for-the-badge)
 
 </div>
