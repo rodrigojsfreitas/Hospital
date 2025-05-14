@@ -54,23 +54,25 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
 <tr style="background-color:#E3F2FD">
   <th width="25%">Documento</th>
   <th width="35%">Descrição</th>
-  <th width="45%">Atributos Principais</th>
+  <th width="45%">Atributos</th>
 </tr>
 <tr style="background-color:#F3E5F5">
   <td><img src="https://img.icons8.com/?size=100&id=14874&format=png&color=000000" width="24"/> <b> Paciente.json</b></td>
   <td>Cadastro completo de pacientes</td>
-  <td><code>id</code>, <code>nome</code>, <code>data_nascimento</code>, <code>cpf</code>, <code>tipo_sanguineo</code>, <code>alergias[]</code>, <code>convenio</code></td>
+  <td>
+    <code>uuid_paciente</code>, <code>id_paciente</code>, <code>nome</code>, <code>data_nascimento</code>, <code>documentos (CPF, RG, etc)</code>, <code>contato</code>, <code>endereco</code>, <code>tipo_sanguineo</code>, <code>convenio</code>, <code>prontuario</code>, <code>id_receitas[]</code></td>
 </tr>
 <tr style="background-color:#E8F5E9">
   <td><img src="https://img.icons8.com/color/48/000000/doctor-male.png" width="24"/> <b> Médico.json</b></td>
   <td>Perfil dos médicos e especialidades</td>
-  <td><code>id</code>, <code>nome</code>, <code>crm</code>, <code>especialidades[]</code>, <code>pacientes[]</code></td>
+  <td>
+<code>uuid_medico</code>, <code>id_medico</code>, <code>nome</code>, <code>data_nascimento</code>, <code>tipo</code>, <code>especialidades[]</code>, <code>contato</code>, <code>status</code>, <code>em_atividade</code>, <code>fila_de_pacientes[]</code>, <code>documentos (CPF e CRM)</code>, <code>id_consultas[]</code>, <code>id_pacientes[]</code></td>
 </tr>
 <tr style="background-color:#FFF3E0">
   <td><img src="https://img.icons8.com/color/48/000000/nurse-female.png" width="24"/> <b> Enfermeira.json</b></td>
   <td>Equipe de enfermagem e atribuições</td>
-  <td><code>id</code>, <code>nome</code>, <code>coren</code>, <code>especialidades[]</code>, <code>pacientes[]</code></td>
-</tr>
+  <td>
+    <code>uuid_enfermeira</code>, <code>id_medico</code>, <code>nome</code>, <code>data_nascimento</code>, <code>tipo</code>, <code>especialidades[]</code>, <code>contato</code>, <code>status</code>, <code>documentos (COREN e CPF)</code>, <code>em_atividade</code>, <code>fila_de_pacientes[]</code>, <code>id_consultas[]</code>, <code>id_pacientes[]</code></tr>
 <tr style="background-color:#E0F7FA">
   <td><img src="https://img.icons8.com/color/48/000000/health-checkup.png" width="24"/> <b> Consulta.json</b></td>
   <td>Histórico de atendimentos médicos</td>
@@ -78,13 +80,14 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
 </tr>
 <tr style="background-color:#F1F8E9">
   <td><img src="https://img.icons8.com/color/48/000000/microscope.png" width="24"/> <b> Exames.json</b></td>
-  <td>Procedimentos diagnósticos</td>
+  <td>Procedimentos e diagnósticos</td>
   <td><code>id</code>, <code>tipo</code>, <code>paciente_id</code>, <code>medico_id</code>, <code>resultados</code>, <code>data</code></td>
 </tr>
 <tr style="background-color:#FCE4EC">
   <td><img src="https://img.icons8.com/?size=100&id=13HpMwhzW71Q&format=png&color=000000" width="24"/> <b> Receitas.json</b></td>
-  <td>Prescrições e medicamentos</td>
-  <td><code>id</code>, <code>paciente_id</code>, <code>medico_id</code>, <code>medicamentos[]</code>, <code>posologia</code>, <code>validade</code></td>
+  <td>Prescrições de medicamentos</td>
+  <td>
+<code>id_receita</code>, <code>nome_medico</code>, <code>documento (CRM)</code>, <code>nome_paciente</code>, <code>id_responsaveis</code>, <code>id_paciente</code>, <code>data_prescrição</code>, <code>data_validade</code>, <code>medicamentos[]</code>, <code>observacao</code>, <code>dispensação</code></td>
 </tr>
 <tr style="background-color:#FFF8E1">
   <td><img src="https://img.icons8.com/color/48/000000/pills.png" width="24"/> <b> Estoque.json</b></td>
