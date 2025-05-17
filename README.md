@@ -64,7 +64,8 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
   <td>
     <div align="center">
       <img src="https://img.icons8.com/?size=100&id=14874&format=png&color=000000" width="54"/><br>
-    Cadastro completo de pacientes
+      
+  <a href="./introducao_dos_atributos/paciente.md">Cadastro completo de pacientes</a>
     </div></td>
   <td>
     <code>uuid_paciente</code>, <code>id_paciente</code>, <code>nome</code>, <code>data_nascimento</code>, <code>documentos (CPF, RG, etc)</code>, <code>contato</code>, <code>endereco</code>, <code>tipo_sanguineo</code>, <code>convenio</code>, <code>prontuario</code>, <code>id_receitas[]</code></td>
@@ -77,8 +78,8 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
   <td>
     <div align="center">
       <img src="https://img.icons8.com/color/48/000000/doctor-male.png" width="54"/>
-      <br>
-    Perfil dos médicos e especialidades</div></td>
+      <br>  
+  <a href="./introducao_dos_atributos/medicos.md">Perfil dos médicos e especialidades</a></div></td>
   <td>
 <code>uuid_medico</code>, <code>id_medico</code>, <code>nome</code>, <code>data_nascimento</code>, <code>tipo</code>, <code>especialidades[]</code>, <code>contato</code>, <code>status</code>, <code>em_atividade</code>, <code>fila_de_pacientes[]</code>, <code>documentos (CPF e CRM)</code>, <code>id_consultas[]</code>, <code>id_pacientes[]</code></td>
 </tr>
@@ -91,65 +92,74 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
     <div align="center">
       <img src="https://img.icons8.com/color/48/000000/nurse-female.png" width="54"/> 
       <br>
-    Equipe de enfermagem e atribuições</div></td>
+    <a href="./introducao_dos_atributos/enfermeira.md">Equipe de enfermagem e atribuições</a></div></td>
   <td>
     <code>uuid_enfermeira</code>, <code>id_medico</code>, <code>nome</code>, <code>data_nascimento</code>, <code>tipo</code>, <code>especialidades[]</code>, <code>contato</code>, <code>status</code>, <code>documentos (COREN e CPF)</code>, <code>em_atividade</code>, <code>fila_de_pacientes[]</code>, <code>id_consultas[]</code>, <code>id_pacientes[]</code></tr>
 <tr style="background-color:#E0F7FA">
   <td><!--<img src="https://img.icons8.com/color/48/000000/health-checkup.png" width="24"/> <b> Consulta.json</b>-->
-      <a href="./Hospital/Consulta.json"><img src="https://img.shields.io/badge/Consulta.json-00BCD4?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Consulta.json"/></a>
+      <a href="./Hospital/consulta.json"><img src="https://img.shields.io/badge/Consulta.json-00BCD4?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Consulta.json"/></a>
   
   </td>
   <td>
   <div align="center">
     <img src="https://img.icons8.com/color/48/000000/health-checkup.png" width="54"/>
     <br>
-    Histórico de atendimentos médicos </div></td>
-  <td><code>id</code>, <code>data_hora</code>, <code>paciente_id</code>, <code>medico_id</code>, <code>especialidade</code>, <code>observacoes</code></td>
+    
+  <a href="./introducao_dos_atributos/consultas.md">Histórico de atendimentos médicos</a> </div></td>
+  <td>
+    <code>id_consulta</code>, <code>id_paciente</code>, <code>id_responsavel[]</code>, <code>especialidade</code>, <code>data_entrada</code>, <code>data_prevista_entrada</code>, <code>data_prevista_saida</code>, <code>data_saida</code></td>
 </tr>
 <tr style="background-color:#F1F8E9">
   <td><!--<img src="https://img.icons8.com/color/48/000000/microscope.png" width="24"/> <b> Exames.json</b> -->
-  <a href="./Hospital/Exames.json"><img src="https://img.shields.io/badge/Exames.json-8BC34A?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Exames.json"/></a>
+  <a href="./Hospital/exames.json"><img src="https://img.shields.io/badge/Exames.json-8BC34A?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Exames.json"/></a>
       
   </td>
   <td>
     <div align="center">
       <img src="https://img.icons8.com/color/48/000000/microscope.png" width="54"/> <br>
-    Procedimentos e diagnósticos</div></td>
+      
+  <a href="./introducao_dos_atributos/exames.md">Procedimentos e diagnósticos</a></div></td>
   <td>
-    <code>id</code>, <code>tipo</code>, <code>paciente_id</code>, <code>medico_id</code>, <code>resultados</code>, <code>data</code></td>
+ <code>paciente_id</code>, <code>id_responsavel</code>, <code>data_entrada</code>, <code>data_prevista_alta</code>, <code>data_efetiva_alta</code>, <code>procedimentos (Procedimento, Exame)</code>, <code>quarto_id</code>, <code>id_dos_responsaveis[]</code>
+  </td>
 </tr>
 <tr style="background-color:#FCE4EC">
   <td><!--<img src="https://img.icons8.com/?size=100&id=13HpMwhzW71Q&format=png&color=000000" width="24"/> <b> Receitas.json</b>-->
-      <a href="./Hospital/Receitas.json"><img src="https://img.shields.io/badge/Receitas.json-E91E63?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Receitas.json"/></a>
+      <a href="./Hospital/receitas.json"><img src="https://img.shields.io/badge/Receitas.json-E91E63?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Receitas.json"/></a>
   </td>
   <td>
     <div align="center">
       <img src="https://img.icons8.com/?size=100&id=13HpMwhzW71Q&format=png&color=000000" width="54"/> <br>
-    Prescrições de medicamentos </div></td>
+      
+  <a href="./introducao_dos_atributos/receitas.md">Prescrições de medicamentos</a></div></td>
   <td>
 <code>id_receita</code>, <code>nome_medico</code>, <code>documento (CRM)</code>, <code>nome_paciente</code>, <code>id_responsaveis</code>, <code>id_paciente</code>, <code>data_prescrição</code>, <code>data_validade</code>, <code>medicamentos[]</code>, <code>observacao</code>, <code>dispensação</code></td>
 </tr>
 <tr style="background-color:#FFF8E1">
   <td><!--<img src="https://img.icons8.com/color/48/000000/pills.png" width="24"/> <b> Estoque.json</b>-->
-  <a href="./Hospital/Estoque.json"><img src="https://img.shields.io/badge/Estoque.json-FFC107?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Estoque.json"/>
+  <a href="./Hospital/estoque.json"><img src="https://img.shields.io/badge/Estoque.json-FFC107?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Estoque.json"/>
       
   </td>
   <td>
     <div align="center">
       <img src="https://img.icons8.com/color/48/000000/pills.png" width="54"/> <br>
-    Inventário farmacêutico</div></td>
-  <td><code>id</code>, <code>medicamento</code>, <code>quantidade</code>, <code>lote</code>, <code>validade</code>, <code>tarja</code></td>
+      
+  <a href="./introducao_dos_atributos/estoque.md">Inventário farmacêutico</a></div></td>
+  <td>
+    <code>id_medicamento</code>, <code>medicamento</code>, <code>tipo_receita</code>, <code>dosagem</code>, <code>tarja</code>, <code>restricoes</code>, <code>via</code>, <code>dosagem_maxima</code></td>
 </tr>
 <tr style="background-color:#E8EAF6">
   <td>
         <!-- <img src="https://img.icons8.com/color/48/000000/hospital-bed.png" width="20"/> Quarto.json -->
-    <a href="./Hospital/Quarto.json"><img src="https://img.shields.io/badge/Quarto.json-3F51B5?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Quarto.json"/></a>
+    <a href="./Hospital/quarto.json"><img src="https://img.shields.io/badge/Quarto.json-3F51B5?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Quarto.json"/></a>
       </td>
   <td>
     <div align="center">
       <img src="https://img.icons8.com/color/48/000000/hospital-bed.png" width="54"/> <br>
-    Gestão de acomodações</div></td>
-  <td><code>numero</code>, <code>tipo</code>, <code>status</code>, <code>paciente_id</code>, <code>equipamentos[]</code>, <code>historico[]</code></td>
+      
+  <a href="./introducao_dos_atributos/quartos.md">Gestão de acomodações</a></div></td>
+  <td>
+     <code>id_quarto</code>, <code>numero</code>, <code>ala</code>, <code>tipo</code>, <code>capacidade</code>, <code>Disponível</code>, <code>equipamentos</code>, <code>responsaveis</code>, <code>limpeza_status</code>, <code>ultima_limpeza</code>, <code>pacientes_ocupantes (id_paciente, data_entrada, data_saida)</code>, <code>historico_ocupacao (id_paciente, data_entrada, data_saida)</code>, <code>ultima_visita (id_medico, data_visita, observacoes)</code></td>
 </tr>
 </table>
 
