@@ -18,13 +18,13 @@
 <details open>
 <summary><b>📑 NAVEGAÇÃO RÁPIDA</b></summary>
 
-|   | Seção               |   | Seção                  |
-|:-:|:--------------------|:-:|:-----------------------|
-| 🔍 | [<span style="color:#3F51B5">Visão Geral</span>](#-visão-geral) | 🎯 | [<span style="color:#E91E63">Objetivos</span>](#-objetivos) |
-| 📊 | [<span style="color:#00C4CC">Estrutura</span>](#-estrutura-de-dados) | 🚀 | [<span style="color:#FF9800">Casos de Uso</span>](#-casos-de-uso) |
-| 🔄 | [<span style="color:#4CAF50">Arquitetura</span>](#-arquitetura) | 📋 | [<span style="color:#9C27B0">Instruções</span>](#-instruções-da-atividade) |
-| 💻 | [<span style="color:#2196F3">Tecnologias</span>](#-tecnologias) | ⚠️ | [<span style="color:#F44336">Aviso</span>](#%EF%B8%8F-aviso) |
 
+| 📑 |<div align="center"> Seção  </div>             | 📑 | <div align="center"> Seção  </div>                 |
+|:-:|:--------------------|:-:|:-----------------------|
+| 🔍 | <div align="center"> [<span style="color:#3F51B5">Visão Geral</span>](#-visão-geral) </div> | 🎯 | <div align="center">[<span style="color:#E91E63">Objetivos</span>](#-objetivos) </div>|
+| 📊 | <div align="center">[<span style="color:#00C4CC">Estrutura</span>](#-estrutura-de-dados)</div> | 🚀 | <div align="center">[<span style="color:#FF9800">Casos de Uso</span>](#-casos-de-uso)</div> |
+| 🔄 | <div align="center">[<span style="color:#4CAF50">Arquitetura</span>](#-arquitetura)</div> | 📋 | <div align="center">[<span style="color:#9C27B0">Instruções</span>](#-instruções-da-atividade)</div> |
+| 💻 | <div align="center">[<span style="color:#2196F3">Tecnologias</span>](#-tecnologias)</div> | ⚠️ |<div align="center"> [<span style="color:#F44336">Aviso</span>](#%EF%B8%8F-aviso) </div>|
 </details>
 
 ---
@@ -54,92 +54,101 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
 <tr style="background-color:#E3F2FD">
   <th width="25%">Documento</th>
   <th width="35%">Descrição</th>
-  <th width="45%">Atributos</th>
+  <th width="40%">Atributos</th>
 </tr>
 <tr style="background-color:#F3E5F5">
-  <td><a href="./Hospital/Paciente.json">
-      <button style="background:#3F51B5;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">
-        <img src="https://img.icons8.com/?size=100&id=14874&format=png&color=000000" width="24"/> Paciente.json
-      </button>
-    </a></td>
-  <td>Cadastro completo de pacientes</td>
+  <td>
+    <a href="./Hospital/Paciente.json"><img src="https://img.shields.io/badge/_Paciente.json-3F51B5?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Paciente.json"/></a>
+       <!-- <img src="https://img.icons8.com/?size=100&id=14874&format=png&color=000000" width="54"/> Paciente.json -->
+  </td>
+  <td>
+    <div align="center">
+      <img src="https://img.icons8.com/?size=100&id=14874&format=png&color=000000" width="54"/><br>
+    Cadastro completo de pacientes
+    </div></td>
   <td>
     <code>uuid_paciente</code>, <code>id_paciente</code>, <code>nome</code>, <code>data_nascimento</code>, <code>documentos (CPF, RG, etc)</code>, <code>contato</code>, <code>endereco</code>, <code>tipo_sanguineo</code>, <code>convenio</code>, <code>prontuario</code>, <code>id_receitas[]</code></td>
 </tr>
 <tr style="background-color:#E8F5E9">
-  <td><a href="./Hospital/Paciente.json">
-      <button style="background:#3F51B5;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">
-        <img src="https://img.icons8.com/color/48/000000/doctor-male.png" width="24"/> Médico.json
-      </button>
-    </a></td>
-  <td>Perfil dos médicos e especialidades</td>
+  <td>
+       <!-- <img src="https://img.icons8.com/color/48/000000/doctor-male.png" width="24"/> Médico.json -->
+       <a href="./Hospital/Médico.json"><img src="https://img.shields.io/badge/Médico.json-388E3C?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Médico.json"/></a>
+  </td>
+  <td>
+    <div align="center">
+      <img src="https://img.icons8.com/color/48/000000/doctor-male.png" width="54"/>
+      <br>
+    Perfil dos médicos e especialidades</div></td>
   <td>
 <code>uuid_medico</code>, <code>id_medico</code>, <code>nome</code>, <code>data_nascimento</code>, <code>tipo</code>, <code>especialidades[]</code>, <code>contato</code>, <code>status</code>, <code>em_atividade</code>, <code>fila_de_pacientes[]</code>, <code>documentos (CPF e CRM)</code>, <code>id_consultas[]</code>, <code>id_pacientes[]</code></td>
 </tr>
 <tr style="background-color:#FFF3E0">
   <td><!--<img src="https://img.icons8.com/color/48/000000/nurse-female.png" width="24"/> <b> Enfermeira.json</b>-->
-      <a href="./Hospital/Paciente.json">
-      <button style="background:#3F51B5;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">
-        <img src="https://img.icons8.com/color/48/000000/nurse-female.png" width="24"/> Paciente.json
-      </button>
-    </a>
+      <a href="./Hospital/Enfermeira.json"><img src="https://img.shields.io/badge/Enfermeira.json-FF9800?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Enfermeira.json"/></a>
   
   </td>
-  <td>Equipe de enfermagem e atribuições</td>
+  <td>
+    <div align="center">
+      <img src="https://img.icons8.com/color/48/000000/nurse-female.png" width="54"/> 
+      <br>
+    Equipe de enfermagem e atribuições</div></td>
   <td>
     <code>uuid_enfermeira</code>, <code>id_medico</code>, <code>nome</code>, <code>data_nascimento</code>, <code>tipo</code>, <code>especialidades[]</code>, <code>contato</code>, <code>status</code>, <code>documentos (COREN e CPF)</code>, <code>em_atividade</code>, <code>fila_de_pacientes[]</code>, <code>id_consultas[]</code>, <code>id_pacientes[]</code></tr>
 <tr style="background-color:#E0F7FA">
   <td><!--<img src="https://img.icons8.com/color/48/000000/health-checkup.png" width="24"/> <b> Consulta.json</b>-->
-      <a href="./Hospital/Paciente.json">
-      <button style="background:#3F51B5;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">
-        <img src="https://img.icons8.com/color/48/000000/health-checkup.png" width="24"/> Consulta.json
-      </button>
-    </a>
+      <a href="./Hospital/Consulta.json"><img src="https://img.shields.io/badge/Consulta.json-00BCD4?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Consulta.json"/></a>
   
   </td>
-  <td>Histórico de atendimentos médicos</td>
+  <td>
+  <div align="center">
+    <img src="https://img.icons8.com/color/48/000000/health-checkup.png" width="54"/>
+    <br>
+    Histórico de atendimentos médicos </div></td>
   <td><code>id</code>, <code>data_hora</code>, <code>paciente_id</code>, <code>medico_id</code>, <code>especialidade</code>, <code>observacoes</code></td>
 </tr>
 <tr style="background-color:#F1F8E9">
   <td><!--<img src="https://img.icons8.com/color/48/000000/microscope.png" width="24"/> <b> Exames.json</b> -->
-      <a href="./Hospital/Paciente.json">
-      <button style="background:#3F51B5;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">
-        <img src="https://img.icons8.com/color/48/000000/microscope.png" width="24"/> Exames.json
-      </button>
-    </a></td>
-  <td>Procedimentos e diagnósticos</td>
-  <td><code>id</code>, <code>tipo</code>, <code>paciente_id</code>, <code>medico_id</code>, <code>resultados</code>, <code>data</code></td>
+  <a href="./Hospital/Exames.json"><img src="https://img.shields.io/badge/Exames.json-8BC34A?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Exames.json"/></a>
+      
+  </td>
+  <td>
+    <div align="center">
+      <img src="https://img.icons8.com/color/48/000000/microscope.png" width="54"/> <br>
+    Procedimentos e diagnósticos</div></td>
+  <td>
+    <code>id</code>, <code>tipo</code>, <code>paciente_id</code>, <code>medico_id</code>, <code>resultados</code>, <code>data</code></td>
 </tr>
 <tr style="background-color:#FCE4EC">
   <td><!--<img src="https://img.icons8.com/?size=100&id=13HpMwhzW71Q&format=png&color=000000" width="24"/> <b> Receitas.json</b>-->
-      <a href="./Hospital/Paciente.json">
-      <button style="background:#3F51B5;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">
-        <img src="https://img.icons8.com/?size=100&id=13HpMwhzW71Q&format=png&color=000000" width="24"/> Receitas.json
-      </button>
-    </a>
+      <a href="./Hospital/Receitas.json"><img src="https://img.shields.io/badge/Receitas.json-E91E63?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Receitas.json"/></a>
   </td>
-  <td>Prescrições de medicamentos</td>
+  <td>
+    <div align="center">
+      <img src="https://img.icons8.com/?size=100&id=13HpMwhzW71Q&format=png&color=000000" width="54"/> <br>
+    Prescrições de medicamentos </div></td>
   <td>
 <code>id_receita</code>, <code>nome_medico</code>, <code>documento (CRM)</code>, <code>nome_paciente</code>, <code>id_responsaveis</code>, <code>id_paciente</code>, <code>data_prescrição</code>, <code>data_validade</code>, <code>medicamentos[]</code>, <code>observacao</code>, <code>dispensação</code></td>
 </tr>
 <tr style="background-color:#FFF8E1">
   <td><!--<img src="https://img.icons8.com/color/48/000000/pills.png" width="24"/> <b> Estoque.json</b>-->
-      <a href="./Hospital/Paciente.json">
-      <button style="background:#3F51B5;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">
-        <img src="https://img.icons8.com/color/48/000000/pills.png" width="24"/> Estoquejson
-      </button>
-    </a>
+  <a href="./Hospital/Estoque.json"><img src="https://img.shields.io/badge/Estoque.json-FFC107?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Estoque.json"/>
+      
   </td>
-  <td>Inventário farmacêutico</td>
+  <td>
+    <div align="center">
+      <img src="https://img.icons8.com/color/48/000000/pills.png" width="54"/> <br>
+    Inventário farmacêutico</div></td>
   <td><code>id</code>, <code>medicamento</code>, <code>quantidade</code>, <code>lote</code>, <code>validade</code>, <code>tarja</code></td>
 </tr>
 <tr style="background-color:#E8EAF6">
-  <td><a href="./Hospital/Paciente.json">
-      <button style="background:#3F51B5;color:white;border:none;padding:6px 12px;border-radius:5px;cursor:pointer;">
-        <img src="https://img.icons8.com/color/48/000000/hospital-bed.png" width="20"/> Quarto.json
-      </button>
-    </a></td>
-  <td>Gestão de acomodações</td>
+  <td>
+        <!-- <img src="https://img.icons8.com/color/48/000000/hospital-bed.png" width="20"/> Quarto.json -->
+    <a href="./Hospital/Quarto.json"><img src="https://img.shields.io/badge/Quarto.json-3F51B5?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Quarto.json"/></a>
+      </td>
+  <td>
+    <div align="center">
+      <img src="https://img.icons8.com/color/48/000000/hospital-bed.png" width="54"/> <br>
+    Gestão de acomodações</div></td>
   <td><code>numero</code>, <code>tipo</code>, <code>status</code>, <code>paciente_id</code>, <code>equipamentos[]</code>, <code>historico[]</code></td>
 </tr>
 </table>
@@ -162,7 +171,7 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
 <br>
 
 ## 💻 <span style="color:#2196F3">TECNOLOGIAS</span>
-
+<div align="center">
 <table>
 <tr style="background-color:#E3F2FD">
   <td align="center" width="96" style="background-color:#00C4CC20;border-radius:8px;">
@@ -175,6 +184,7 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
   </td>
   </tr>
 </table>
+</div>
 
 ## 🎯 <span style="color:#E91E63">OBJETIVOS</span>
 
