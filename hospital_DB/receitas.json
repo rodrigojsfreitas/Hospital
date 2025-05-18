@@ -1,0 +1,252 @@
+[
+  {
+    "id_receita": "rec123",
+    "nome_medico": "Kaique Rocha",
+    "documento": { "crm": "fankfa321" },
+    "nome_paciente": "Ronielson da Silva",
+    "id_responsaveis": "famkl2313",
+    "id_paciente": "paciente123",
+    "data_prescrição": "2004-03-10",
+    "data_validade": "2004-04-10",
+    "medicamentos": [
+      {
+        "id": "medic123",
+        "dosagem": "150mg",
+        "via": "retal",
+        "frequencia": "1 comprimido a cada 8 horas",
+        "duracao": "7 dias"
+      }
+    ],
+    "observacao": "nao tomar alcool nos primeiros 15 dias",
+    "dispensação": {
+      "data": "2004-03-11",
+      "farmacia": "Farmacia XYZ",
+      "responsavel_dispensacao": "Farmacêutico João"
+    }
+  },
+  {
+    "id_receita": "rec124",
+    "nome_medico": "Ana Paula Souza",
+    "documento": { "crm": "crm12456" },
+    "nome_paciente": "Maria Oliveira",
+    "id_responsaveis": "famkl2314",
+    "id_paciente": "paciente124",
+    "data_prescrição": "2004-05-12",
+    "data_validade": "2004-06-12",
+    "medicamentos": [
+      {
+        "id": "medic124",
+        "dosagem": "500mg",
+        "via": "oral",
+        "frequencia": "2 comprimidos ao dia",
+        "duracao": "10 dias"
+      }
+    ],
+    "observacao": "tomar após as refeições",
+    "dispensação": {
+      "data": "2004-05-13",
+      "farmacia": "Farmacia Central",
+      "responsavel_dispensacao": "Farmacêutica Carla"
+    }
+  },
+  {
+    "id_receita": "rec125",
+    "nome_medico": "Bruno Lima",
+    "documento": { "crm": "crm78910" },
+    "nome_paciente": "João Pedro Santos",
+    "id_responsaveis": "famkl2315",
+    "id_paciente": "paciente125",
+    "data_prescrição": "2004-07-01",
+    "data_validade": "2004-08-01",
+    "medicamentos": [
+      {
+        "id": "medic125",
+        "dosagem": "20mg",
+        "via": "oral",
+        "frequencia": "1 comprimido ao dia",
+        "duracao": "30 dias"
+      }
+    ],
+    "observacao": "não dirigir após tomar o medicamento",
+    "dispensação": {
+      "data": "2004-07-02",
+      "farmacia": "Farmacia Popular",
+      "responsavel_dispensacao": "Farmacêutico Lucas"
+    }
+  },
+  {
+    "id_receita": "rec126",
+    "nome_medico": "Carla Mendes",
+    "documento": { "crm": "crm11223" },
+    "nome_paciente": "Fernanda Lima",
+    "id_responsaveis": "famkl2316",
+    "id_paciente": "paciente126",
+    "data_prescrição": "2004-09-15",
+    "data_validade": "2004-10-15",
+    "medicamentos": [
+      {
+        "id": "medic126",
+        "dosagem": "10ml",
+        "via": "intravenosa",
+        "frequencia": "a cada 12 horas",
+        "duracao": "5 dias"
+      }
+    ],
+    "observacao": "manter repouso absoluto",
+    "dispensação": {
+      "data": "2004-09-16",
+      "farmacia": "Farmacia Saúde",
+      "responsavel_dispensacao": "Farmacêutica Ana"
+    }
+  },
+  {
+    "id_receita": "rec127",
+    "nome_medico": "Diego Silva",
+    "documento": { "crm": "crm33445" },
+    "nome_paciente": "Lucas Martins",
+    "id_responsaveis": "famkl2317",
+    "id_paciente": "paciente127",
+    "data_prescrição": "2004-11-20",
+    "data_validade": "2004-12-20",
+    "medicamentos": [
+      {
+        "id": "medic127",
+        "dosagem": "250mg",
+        "via": "oral",
+        "frequencia": "1 comprimido a cada 6 horas",
+        "duracao": "14 dias"
+      }
+    ],
+    "observacao": "evitar exposição ao sol",
+    "dispensação": {
+      "data": "2004-11-21",
+      "farmacia": "Farmacia Vida",
+      "responsavel_dispensacao": "Farmacêutico Pedro"
+    }
+  },
+  {
+    "id_receita": "rec128",
+    "nome_medico": "Elisa Costa",
+    "documento": { "crm": "crm55667" },
+    "nome_paciente": "Patrícia Souza",
+    "id_responsaveis": "famkl2318",
+    "id_paciente": "paciente128",
+    "data_prescrição": "2005-01-05",
+    "data_validade": "2005-02-05",
+    "medicamentos": [
+      {
+        "id": "medic128",
+        "dosagem": "5mg",
+        "via": "oral",
+        "frequencia": "1 comprimido ao dia",
+        "duracao": "60 dias"
+      }
+    ],
+    "observacao": "ingerir com bastante água",
+    "dispensação": {
+      "data": "2005-01-06",
+      "farmacia": "Farmacia Bem Estar",
+      "responsavel_dispensacao": "Farmacêutica Bruna"
+    }
+  },
+  {
+    "id_receita": "rec129",
+    "nome_medico": "Fábio Torres",
+    "documento": { "crm": "crm77889" },
+    "nome_paciente": "Ricardo Alves",
+    "id_responsaveis": "famkl2319",
+    "id_paciente": "paciente129",
+    "data_prescrição": "2005-03-10",
+    "data_validade": "2005-04-10",
+    "medicamentos": [
+      {
+        "id": "medic129",
+        "dosagem": "100mg",
+        "via": "oral",
+        "frequencia": "2 comprimidos ao dia",
+        "duracao": "20 dias"
+      }
+    ],
+    "observacao": "não tomar em jejum",
+    "dispensação": {
+      "data": "2005-03-11",
+      "farmacia": "Farmacia Saúde Total",
+      "responsavel_dispensacao": "Farmacêutico Rafael"
+    }
+  },
+  {
+    "id_receita": "rec130",
+    "nome_medico": "Gabriela Nunes",
+    "documento": { "crm": "crm99001" },
+    "nome_paciente": "Sofia Pereira",
+    "id_responsaveis": "famkl2320",
+    "id_paciente": "paciente130",
+    "data_prescrição": "2005-05-18",
+    "data_validade": "2005-06-18",
+    "medicamentos": [
+      {
+        "id": "medic130",
+        "dosagem": "200mg",
+        "via": "oral",
+        "frequencia": "1 comprimido a cada 24 horas",
+        "duracao": "15 dias"
+      }
+    ],
+    "observacao": "não interromper o tratamento sem consultar o médico",
+    "dispensação": {
+      "data": "2005-05-19",
+      "farmacia": "Farmacia Esperança",
+      "responsavel_dispensacao": "Farmacêutica Juliana"
+    }
+  },
+  {
+    "id_receita": "rec131",
+    "nome_medico": "Henrique Dias",
+    "documento": { "crm": "crm22334" },
+    "nome_paciente": "Thiago Costa",
+    "id_responsaveis": "famkl2321",
+    "id_paciente": "paciente131",
+    "data_prescrição": "2005-07-22",
+    "data_validade": "2005-08-22",
+    "medicamentos": [
+      {
+        "id": "medic131",
+        "dosagem": "50mg",
+        "via": "oral",
+        "frequencia": "1 comprimido a cada 8 horas",
+        "duracao": "10 dias"
+      }
+    ],
+    "observacao": "evitar bebidas cítricas",
+    "dispensação": {
+      "data": "2005-07-23",
+      "farmacia": "Farmacia União",
+      "responsavel_dispensacao": "Farmacêutico André"
+    }
+  },
+  {
+    "id_receita": "rec132",
+    "nome_medico": "Isabela Ramos",
+    "documento": { "crm": "crm44556" },
+    "nome_paciente": "Vanessa Lima",
+    "id_responsaveis": "famkl2322",
+    "id_paciente": "paciente132",
+    "data_prescrição": "2005-09-30",
+    "data_validade": "2005-10-30",
+    "medicamentos": [
+      {
+        "id": "medic132",
+        "dosagem": "75mg",
+        "via": "oral",
+        "frequencia": "1 comprimido ao dia",
+        "duracao": "21 dias"
+      }
+    ],
+    "observacao": "não consumir leite durante o tratamento",
+    "dispensação": {
+      "data": "2005-10-01",
+      "farmacia": "Farmacia Nova Vida",
+      "responsavel_dispensacao": "Farmacêutica Paula"
+    }
+  }
+]

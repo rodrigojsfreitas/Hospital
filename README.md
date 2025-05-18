@@ -58,7 +58,7 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
 </tr>
 <tr style="background-color:#F3E5F5">
   <td>
-    <a href="./Hospital/pacientes.json"><img src="https://img.shields.io/badge/_pacientes.json-3F51B5?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Paciente.json"/></a>
+    <a href="./hospital_DB/pacientes.json"><img src="https://img.shields.io/badge/_pacientes.json-3F51B5?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Paciente.json"/></a>
        <!-- <img src="https://img.icons8.com/?size=100&id=14874&format=png&color=000000" width="54"/> Paciente.json -->
   </td>
   <td>
@@ -73,7 +73,7 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
 <tr style="background-color:#E8F5E9">
   <td>
        <!-- <img src="https://img.icons8.com/color/48/000000/doctor-male.png" width="24"/> Médico.json -->
-       <a href="./Hospital/medicos.json"><img src="https://img.shields.io/badge/medicos.json-388E3C?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Médico.json"/></a>
+       <a href="./hospital_DB/medicos.json"><img src="https://img.shields.io/badge/medicos.json-388E3C?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Médico.json"/></a>
   </td>
   <td>
     <div align="center">
@@ -85,7 +85,7 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
 </tr>
 <tr style="background-color:#FFF3E0">
   <td><!--<img src="https://img.icons8.com/color/48/000000/nurse-female.png" width="24"/> <b> Enfermeira.json</b>-->
-      <a href="./Hospital/enfermeiras.json"><img src="https://img.shields.io/badge/enfermeiras.json-FF9800?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Enfermeira.json"/></a>
+      <a href="./hospital_DB/enfermeiras.json"><img src="https://img.shields.io/badge/enfermeiras.json-FF9800?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Enfermeira.json"/></a>
   
   </td>
   <td>
@@ -97,7 +97,7 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
     <code>uuid_enfermeira</code>, <code>id_medico</code>, <code>nome</code>, <code>data_nascimento</code>, <code>tipo</code>, <code>especialidades[]</code>, <code>contato</code>, <code>status</code>, <code>documentos (COREN e CPF)</code>, <code>em_atividade</code>, <code>fila_de_pacientes[]</code>, <code>id_consultas[]</code>, <code>id_pacientes[]</code></tr>
 <tr style="background-color:#E0F7FA">
   <td><!--<img src="https://img.icons8.com/color/48/000000/health-checkup.png" width="24"/> <b> Consulta.json</b>-->
-      <a href="./Hospital/consultas.json"><img src="https://img.shields.io/badge/consultas.json-00BCD4?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Consulta.json"/></a>
+      <a href="./hospital_DB/consultas.json"><img src="https://img.shields.io/badge/consultas.json-00BCD4?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Consulta.json"/></a>
   
   </td>
   <td>
@@ -111,7 +111,7 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
 </tr>
 <tr style="background-color:#F1F8E9">
   <td><!--<img src="https://img.icons8.com/color/48/000000/microscope.png" width="24"/> <b> Exames.json</b> -->
-  <a href="./Hospital/exames.json"><img src="https://img.shields.io/badge/exames.json-8BC34A?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Exames.json"/></a>
+  <a href="./hospital_DB/exames.json"><img src="https://img.shields.io/badge/exames.json-8BC34A?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Exames.json"/></a>
       
   </td>
   <td>
@@ -125,7 +125,7 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
 </tr>
 <tr style="background-color:#FCE4EC">
   <td><!--<img src="https://img.icons8.com/?size=100&id=13HpMwhzW71Q&format=png&color=000000" width="24"/> <b> Receitas.json</b>-->
-      <a href="./Hospital/receitas.json"><img src="https://img.shields.io/badge/Receitas.json-E91E63?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Receitas.json"/></a>
+      <a href="./hospital_DB/receitas.json"><img src="https://img.shields.io/badge/Receitas.json-E91E63?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Receitas.json"/></a>
   </td>
   <td>
     <div align="center">
@@ -137,7 +137,7 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
 </tr>
 <tr style="background-color:#FFF8E1">
   <td><!--<img src="https://img.icons8.com/color/48/000000/pills.png" width="24"/> <b> Estoque.json</b>-->
-  <a href="./Hospital/estoque.json"><img src="https://img.shields.io/badge/estoque.json-FFC107?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Estoque.json"/>
+  <a href="./hospital_DB/estoque.json"><img src="https://img.shields.io/badge/estoque.json-FFC107?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Estoque.json"/>
       
   </td>
   <td>
@@ -151,7 +151,7 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
 <tr style="background-color:#E8EAF6">
   <td>
         <!-- <img src="https://img.icons8.com/color/48/000000/hospital-bed.png" width="20"/> Quarto.json -->
-    <a href="./Hospital/quartos.json"><img src="https://img.shields.io/badge/uartos.json-3F51B5?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Quartos.json"/></a>
+    <a href="./hospital_DB/quartos.json"><img src="https://img.shields.io/badge/uartos.json-3F51B5?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Quartos.json"/></a>
       </td>
   <td>
     <div align="center">

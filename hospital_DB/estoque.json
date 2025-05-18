@@ -1,0 +1,112 @@
+[
+    {
+        "id_medicamento": "medic123",
+        "medicamento": "medicamento A",
+        "tipo_receita": "comum",
+        "dosagem": "150mg",
+        "tarja": "Vermelha",
+        "restricoes": "Uso sob prescrição",
+        "via": "retal",
+        "dosagem_maxima": "500mg/dia"
+    },
+    {
+        "id_medicamento": "medic124",
+        "medicamento": "medicamento B",
+        "tipo_receita": "controlada",
+        "dosagem": "50mg",
+        "tarja": "Preta",
+        "restricoes": "Venda sob retenção de receita",
+        "via": "oral",
+        "dosagem_maxima": "200mg/dia"
+    },
+    {
+        "id_medicamento": "medic125",
+        "medicamento": "medicamento C",
+        "tipo_receita": "comum",
+        "dosagem": "10mg",
+        "tarja": "Amarela",
+        "restricoes": "Uso adulto",
+        "via": "intravenosa",
+        "dosagem_maxima": "40mg/dia"
+    },
+    {
+        "id_medicamento": "medic126",
+        "medicamento": "medicamento D",
+        "tipo_receita": "especial",
+        "dosagem": "500mg",
+        "tarja": "Vermelha",
+        "restricoes": "Uso hospitalar",
+        "via": "oral",
+        "dosagem_maxima": "1000mg/dia"
+    },
+    {
+        "id_medicamento": "medic127",
+        "medicamento": "medicamento E",
+        "tipo_receita": "comum",
+        "dosagem": "250mg",
+        "tarja": "Azul",
+        "restricoes": "Uso pediátrico",
+        "via": "intramuscular",
+        "dosagem_maxima": "750mg/dia"
+    },
+    {
+        "id_medicamento": "medic128",
+        "medicamento": "medicamento F",
+        "tipo_receita": "controlada",
+        "dosagem": "20mg",
+        "tarja": "Preta",
+        "restricoes": "Venda proibida sem receita",
+        "via": "oral",
+        "dosagem_maxima": "60mg/dia"
+    },
+    {
+        "id_medicamento": "medic129",
+        "medicamento": "medicamento G",
+        "tipo_receita": "comum",
+        "dosagem": "5mg",
+        "tarja": "Vermelha",
+        "restricoes": "Uso contínuo",
+        "via": "subcutânea",
+        "dosagem_maxima": "15mg/dia"
+    },
+    {
+        "id_medicamento": "medic130",
+        "medicamento": "medicamento H",
+        "tipo_receita": "especial",
+        "dosagem": "100mg",
+        "tarja": "Amarela",
+        "restricoes": "Uso restrito",
+        "via": "oral",
+        "dosagem_maxima": "300mg/dia"
+    },
+    {
+        "id_medicamento": "medic131",
+        "medicamento": "medicamento I",
+        "tipo_receita": "comum",
+        "dosagem": "75mg",
+        "tarja": "Vermelha",
+        "restricoes": "Uso sob prescrição",
+        "via": "tópica",
+        "dosagem_maxima": "225mg/dia"
+    },
+    {
+        "id_medicamento": "medic132",
+        "medicamento": "medicamento J",
+        "tipo_receita": "controlada",
+        "dosagem": "2mg",
+        "tarja": "Preta",
+        "restricoes": "Venda sob retenção de receita",
+        "via": "oral",
+        "dosagem_maxima": "6mg/dia"
+    },
+    {
+        "id_medicamento": "medic133",
+        "medicamento": "medicamento K",
+        "tipo_receita": "comum",
+        "dosagem": "30mg",
+        "tarja": "Azul",
+        "restricoes": "Uso adulto",
+        "via": "intravenosa",
+        "dosagem_maxima": "90mg/dia"
+    }
+]

@@ -1,0 +1,222 @@
+[
+    {
+        "uuid_medico": "12bb4a36-0e31-44ef-ba03-780d6bf33d0f",
+        "id_medico": "medsp121",
+        "nome": "Letícia de Oliveira",
+        "data_nascimento": "1980-05-14",
+        "tipo": "M0",
+        "especialidades": ["A"],
+        "contato": {
+            "telefone": "(11) 944039125",
+            "email": "leticiaoliveira@gmail.com"
+        },
+        "status": "Ativo",
+        "em_atividade": true,
+        "fila_de_pacientes": ["pacsp101"],
+        "documentos": {
+            "cpf": "21974148874",
+            "crm": "SP987654"
+        },
+        "id_consultas": ["consp108"]    
+    },
+    {
+        "uuid_medico": "23cc5b47-1f42-55ef-bb14-890e7cf44e1a",
+        "id_medico": "medsp122",
+        "nome": "Carlos Eduardo Silva",
+        "data_nascimento": "1975-09-22",
+        "tipo": "M1",
+        "especialidades": ["B", "C"],
+        "contato": {
+            "telefone": "(11) 988776655",
+            "email": "carlossilva@gmail.com"
+        },
+        "status": "Ativo",
+        "em_atividade": true,
+        "fila_de_pacientes": ["pacsp102", "pacsp103"],
+        "documentos": {
+            "cpf": "12345678901",
+            "crm": "SP123456"
+        },
+        "id_consultas": ["consp109", "consp110"]
+    },
+    {
+        "uuid_medico": "34dd6c58-2a53-66ef-cc25-901f8df55f2b",
+        "id_medico": "medsp123",
+        "nome": "Fernanda Souza",
+        "data_nascimento": "1982-11-30",
+        "tipo": "M0",
+        "especialidades": ["A", "D"],
+        "contato": {
+            "telefone": "(11) 977665544",
+            "email": "fernandasouza@gmail.com"
+        },
+        "status": "Ativo",
+        "em_atividade": false,
+        "fila_de_pacientes": [],
+        "documentos": {
+            "cpf": "23456789012",
+            "crm": "SP234567"
+        },
+        "id_consultas": ["consp111"]
+    },
+    {
+        "uuid_medico": "45ee7d69-3b64-77ef-dd36-a12f9ef66f3c",
+        "id_medico": "medsp124",
+        "nome": "João Pedro Ramos",
+        "data_nascimento": "1968-03-18",
+        "tipo": "M2",
+        "especialidades": ["E"],
+        "contato": {
+            "telefone": "(11) 966554433",
+            "email": "joaoramos@gmail.com"
+        },
+        "status": "Inativo",
+        "em_atividade": false,
+        "fila_de_pacientes": [],
+        "documentos": {
+            "cpf": "34567890123",
+            "crm": "SP345678"
+        },
+        "id_consultas": []
+    },
+    {
+        "uuid_medico": "56ff8e7a-4c75-88ef-ee47-b23fa0f77g4d",
+        "id_medico": "medsp125",
+        "nome": "Mariana Lima",
+        "data_nascimento": "1990-07-12",
+        "tipo": "M1",
+        "especialidades": ["B"],
+        "contato": {
+            "telefone": "(11) 955443322",
+            "email": "marianalima@gmail.com"
+        },
+        "status": "Ativo",
+        "em_atividade": true,
+        "fila_de_pacientes": ["pacsp104"],
+        "documentos": {
+            "cpf": "45678901234",
+            "crm": "SP456789"
+        },
+        "id_consultas": ["consp112"]
+    },
+    {
+        "uuid_medico": "67aa9f8b-5d86-99ef-ff58-c34fb1g88h5e",
+        "id_medico": "medsp126",
+        "nome": "Ricardo Alves",
+        "data_nascimento": "1985-01-25",
+        "tipo": "M0",
+        "especialidades": ["C"],
+        "contato": {
+            "telefone": "(11) 944332211",
+            "email": "ricardoalves@gmail.com"
+        },
+        "status": "Ativo",
+        "em_atividade": true,
+        "fila_de_pacientes": ["pacsp105", "pacsp106"],
+        "documentos": {
+            "cpf": "56789012345",
+            "crm": "SP567890"
+        },
+        "id_consultas": ["consp113", "consp114"]
+    },
+    {
+        "uuid_medico": "78bb0a9c-6e97-00ef-0019-d45gc2h99i6f",
+        "id_medico": "medsp127",
+        "nome": "Patrícia Mendes",
+        "data_nascimento": "1978-12-05",
+        "tipo": "M2",
+        "especialidades": ["D", "E"],
+        "contato": {
+            "telefone": "(11) 933221100",
+            "email": "patriciamendes@gmail.com"
+        },
+        "status": "Ativo",
+        "em_atividade": false,
+        "fila_de_pacientes": [],
+        "documentos": {
+            "cpf": "67890123456",
+            "crm": "SP678901"
+        },
+        "id_consultas": []
+    },
+    {
+        "uuid_medico": "89cc1b0d-7fa8-11ef-1120-e56hd3i00j7g",
+        "id_medico": "medsp128",
+        "nome": "Thiago Costa",
+        "data_nascimento": "1987-04-10",
+        "tipo": "M1",
+        "especialidades": ["A", "B"],
+        "contato": {
+            "telefone": "(11) 922110099",
+            "email": "thiagocosta@gmail.com"
+        },
+        "status": "Ativo",
+        "em_atividade": true,
+        "fila_de_pacientes": ["pacsp107"],
+        "documentos": {
+            "cpf": "78901234567",
+            "crm": "SP789012"
+        },
+        "id_consultas": ["consp115"]
+    },
+    {
+        "uuid_medico": "90dd2c1e-8ab9-22ef-2231-f67ie4j11k8h",
+        "id_medico": "medsp129",
+        "nome": "Ana Paula Rocha",
+        "data_nascimento": "1992-08-21",
+        "tipo": "M0",
+        "especialidades": ["C"],
+        "contato": {
+            "telefone": "(11) 911009988",
+            "email": "anapaularocha@gmail.com"
+        },
+        "status": "Ativo",
+        "em_atividade": true,
+        "fila_de_pacientes": [],
+        "documentos": {
+            "cpf": "89012345678",
+            "crm": "SP890123"
+        },
+        "id_consultas": []
+    },
+    {
+        "uuid_medico": "01ee3d2f-9bca-33ef-3342-g78jf5k22l9i",
+        "id_medico": "medsp130",
+        "nome": "Bruno Martins",
+        "data_nascimento": "1979-06-16",
+        "tipo": "M2",
+        "especialidades": ["E"],
+        "contato": {
+            "telefone": "(11) 900998877",
+            "email": "brunomartins@gmail.com"
+        },
+        "status": "Inativo",
+        "em_atividade": false,
+        "fila_de_pacientes": [],
+        "documentos": {
+            "cpf": "90123456789",
+            "crm": "SP901234"
+        },
+        "id_consultas": []
+    },
+    {
+        "uuid_medico": "12ff4e30-acdb-44ef-4453-h89kg6l33m0j",
+        "id_medico": "medsp131",
+        "nome": "Juliana Pires",
+        "data_nascimento": "1983-10-02",
+        "tipo": "M1",
+        "especialidades": ["B", "D"],
+        "contato": {
+            "telefone": "(11) 988887766",
+            "email": "julianapires@gmail.com"
+        },
+        "status": "Ativo",
+        "em_atividade": true,
+        "fila_de_pacientes": ["pacsp108"],
+        "documentos": {
+            "cpf": "01234567890",
+            "crm": "SP012345"
+        },
+        "id_consultas": ["consp116"]
+    }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "id_quarto": "Q101",
+    "numero": "101",
+    "ala": "Enfermaria",
+    "tipo": "Individual",
+    "capacidade": 1,
+    "Disponível": false,
+    "equipamentos": ["Monitor cardíaco", "Oxigênio"],
+    "responsaveis": ["enfsp110", "enfsp111", "medsp121"],
+    "limpeza_status": "Limpo",
+    "ultima_limpeza": "2025-04-16T10:00:00Z",
+    "pacientes_ocupantes": [
+      {
+        "id_paciente": "pacsp101",
+        "data_entrada": "2025-04-10T08:00:00Z",
+        "data_saida": null
+      }
+    ],
+    "historico_ocupacao": [
+      {
+        "id_paciente": "pacsp101",
+        "data_entrada": "2025-04-10T08:00:00Z",
+        "data_saida": "2025-04-12T12:00:00Z"
+      }
+    ],
+    "ultima_visita": [
+      {
+        "id_medico": "medsp121",
+        "data_visita": "2025-04-15T14:00:00Z",
+        "observacoes": "Paciente estável, continuar monitoramento."
+      }
+    ]
+  },
+  {
+    "id_quarto": "Q102",
+    "numero": "102",
+    "ala": "Enfermaria",
+    "tipo": "Duplo",
+    "capacidade": 2,
+    "Disponível": true,
+    "equipamentos": ["Oxigênio"],
+    "responsaveis": ["enfsp112", "medsp122"],
+    "limpeza_status": "Limpo",
+    "ultima_limpeza": "2025-04-16T09:00:00Z",
+    "pacientes_ocupantes": [],
+    "historico_ocupacao": [],
+    "ultima_visita": []
+  },
+  {
+    "id_quarto": "Q103",
+    "numero": "103",
+    "ala": "UTI",
+    "tipo": "Individual",
+    "capacidade": 1,
+    "Disponível": false,
+    "equipamentos": ["Monitor cardíaco", "Oxigênio", "Ventilador mecânico"],
+    "responsaveis": ["enfsp113", "medsp123"],
+    "limpeza_status": "Em andamento",
+    "ultima_limpeza": "2025-04-16T08:30:00Z",
+    "pacientes_ocupantes": [
+      {
+        "id_paciente": "pacsp102",
+        "data_entrada": "2025-04-14T10:00:00Z",
+        "data_saida": null
+      }
+    ],
+    "historico_ocupacao": [],
+    "ultima_visita": [
+      {
+        "id_medico": "medsp123",
+        "data_visita": "2025-04-16T11:00:00Z",
+        "observacoes": "Paciente em observação intensiva."
+      }
+    ]
+  },
+  {
+    "id_quarto": "Q104",
+    "numero": "104",
+    "ala": "UTI",
+    "tipo": "Duplo",
+    "capacidade": 2,
+    "Disponível": true,
+    "equipamentos": ["Monitor cardíaco"],
+    "responsaveis": ["enfsp114", "medsp124"],
+    "limpeza_status": "Limpo",
+    "ultima_limpeza": "2025-04-15T17:00:00Z",
+    "pacientes_ocupantes": [],
+    "historico_ocupacao": [],
+    "ultima_visita": []
+  },
+  {
+    "id_quarto": "Q105",
+    "numero": "105",
+    "ala": "Enfermaria",
+    "tipo": "Coletivo",
+    "capacidade": 4,
+    "Disponível": true,
+    "equipamentos": [],
+    "responsaveis": ["enfsp115", "medsp125"],
+    "limpeza_status": "Limpo",
+    "ultima_limpeza": "2025-04-16T07:00:00Z",
+    "pacientes_ocupantes": [],
+    "historico_ocupacao": [],
+    "ultima_visita": []
+  },
+  {
+    "id_quarto": "Q106",
+    "numero": "106",
+    "ala": "Maternidade",
+    "tipo": "Individual",
+    "capacidade": 1,
+    "Disponível": false,
+    "equipamentos": ["Oxigênio"],
+    "responsaveis": ["enfsp116", "medsp126"],
+    "limpeza_status": "Limpo",
+    "ultima_limpeza": "2025-04-15T20:00:00Z",
+    "pacientes_ocupantes": [
+      {
+        "id_paciente": "pacsp103",
+        "data_entrada": "2025-04-15T18:00:00Z",
+        "data_saida": null
+      }
+    ],
+    "historico_ocupacao": [],
+    "ultima_visita": [
+      {
+        "id_medico": "medsp126",
+        "data_visita": "2025-04-16T09:30:00Z",
+        "observacoes": "Paciente em recuperação pós-parto."
+      }
+    ]
+  },
+  {
+    "id_quarto": "Q107",
+    "numero": "107",
+    "ala": "Maternidade",
+    "tipo": "Duplo",
+    "capacidade": 2,
+    "Disponível": true,
+    "equipamentos": [],
+    "responsaveis": ["enfsp117", "medsp127"],
+    "limpeza_status": "Limpo",
+    "ultima_limpeza": "2025-04-16T06:00:00Z",
+    "pacientes_ocupantes": [],
+    "historico_ocupacao": [],
+    "ultima_visita": []
+  },
+  {
+    "id_quarto": "Q108",
+    "numero": "108",
+    "ala": "Pediatria",
+    "tipo": "Coletivo",
+    "capacidade": 3,
+    "Disponível": false,
+    "equipamentos": ["Monitor cardíaco"],
+    "responsaveis": ["enfsp118", "medsp128"],
+    "limpeza_status": "Em andamento",
+    "ultima_limpeza": "2025-04-15T22:00:00Z",
+    "pacientes_ocupantes": [
+      {
+        "id_paciente": "pacsp104",
+        "data_entrada": "2025-04-15T21:00:00Z",
+        "data_saida": null
+      }
+    ],
+    "historico_ocupacao": [],
+    "ultima_visita": [
+      {
+        "id_medico": "medsp128",
+        "data_visita": "2025-04-16T10:30:00Z",
+        "observacoes": "Paciente com febre, monitorar temperatura."
+      }
+    ]
+  },
+  {
+    "id_quarto": "Q109",
+    "numero": "109",
+    "ala": "Pediatria",
+    "tipo": "Duplo",
+    "capacidade": 2,
+    "Disponível": true,
+    "equipamentos": [],
+    "responsaveis": ["enfsp119", "medsp129"],
+    "limpeza_status": "Limpo",
+    "ultima_limpeza": "2025-04-16T05:00:00Z",
+    "pacientes_ocupantes": [],
+    "historico_ocupacao": [],
+    "ultima_visita": []
+  },
+  {
+    "id_quarto": "Q110",
+    "numero": "110",
+    "ala": "Enfermaria",
+    "tipo": "Individual",
+    "capacidade": 1,
+    "Disponível": true,
+    "equipamentos": ["Oxigênio"],
+    "responsaveis": ["enfsp120", "medsp130"],
+    "limpeza_status": "Limpo",
+    "ultima_limpeza": "2025-04-16T04:00:00Z",
+    "pacientes_ocupantes": [],
+    "historico_ocupacao": [],
+    "ultima_visita": []
+  },
+  {
+    "id_quarto": "Q111",
+    "numero": "111",
+    "ala": "Enfermaria",
+    "tipo": "Duplo",
+    "capacidade": 2,
+    "Disponível": false,
+    "equipamentos": ["Monitor cardíaco"],
+    "responsaveis": ["enfsp121", "medsp131"],
+    "limpeza_status": "Limpo",
+    "ultima_limpeza": "2025-04-16T03:00:00Z",
+    "pacientes_ocupantes": [
+      {
+        "id_paciente": "pacsp105",
+        "data_entrada": "2025-04-16T02:00:00Z",
+        "data_saida": null
+      }
+    ],
+    "historico_ocupacao": [],
+    "ultima_visita": [
+      {
+        "id_medico": "medsp131",
+        "data_visita": "2025-04-16T11:30:00Z",
+        "observacoes": "Paciente em observação pós-cirúrgica."
+      }
+    ]
+  }
+]
