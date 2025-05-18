@@ -89,71 +89,82 @@
 </table>
 
 # Tipos e Especialidades
-
-<div style="display: flex; justify-content: center; width: 100%;" align="center">
-    <div style="width: 50%; padding: 10px;">
-        <!-- Tabela de Pacientes -->
-       <table align="center" style="text-align: center;" style="width: 100%">
-<tr>
-<th width="30%" align="center" >Tipo</th>
-<th width="70%" align="center" >Descrição</th>
-</tr>
-<tr>
-<td align="center">M0</td>
-<td align="center">Clínico Geral</td>
-</tr>
-<tr>
-<td align="center">M1</td>
-<td align="center">Dermatologista</td>
-</tr>
-<tr>
-<td align="center">M2</td>
-<td align="center">Pediatra</td>
-</tr>
-<tr>
-<td align="center">M3</td>
-<td align="center">Ginecologista</td>
-</tr>
-<tr>
-<td align="center">M4</td>
-<td align="center">Cirurgião</td>
-</tr>
-<tr>
-<td align="center"">M5</td>
-<td align="center"">Oftalmologista</td>
-</tr>
-</table>
-    </div>
-     <div style="width: 50%; padding: 10px;" align="center">
-            <table align="center" style="text-align: center;" style="width: 100%">
-<tr>
-<th width="30%" align="center" >Especialidade</th>
-<th width="70%" align="center" >Descrição</th>
-</tr>
-<tr>
-<td align="center">A</td>
-<td align="center">Dermatologia</td>
-</tr>
-<tr>
-<td align="center">B</td>
-<td align="center">Pediatria</td>
-</tr>
-<tr>
-<td align="center">C</td>
-<td align="center">Urologia</td>
-</tr>
-<tr>
-<td align="center">D</td>
-<td align="center">Oftalmologia</td>
-</tr>
-<tr>
-<td align="center">E</td>
-<td align="center">Neurologia</td>
-</tr>
-<tr>
-<td align="center">F</td>
-<td align="center">Cardiologia</td>
-</tr>
-</table>
-  </div>
-</div>
+  
+  <table align="center" style="margin: 0 auto;">
+    <tr>
+      <td width="50%" valign="top">
+        <h3 align="center">Tipos de Médicos</h3>
+        <table align="center" border="1" cellspacing="0" cellpadding="8">
+          <thead>
+            <tr bgcolor="#f0f0f0">
+              <th>Tipo</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center"><b>M0</b></td>
+              <td align="center">Clínico Geral</td>
+            </tr>
+            <tr>
+              <td align="center"><b>M1</b></td>
+              <td align="center">Dermatologista</td>
+            </tr>
+            <tr>
+              <td align="center"><b>M2</b></td>
+              <td align="center">Pediatra</td>
+            </tr>
+            <tr>
+              <td align="center"><b>M3</b></td>
+              <td align="center">Ginecologista</td>
+            </tr>
+            <tr>
+              <td align="center"><b>M4</b></td>
+              <td align="center">Cirurgião</td>
+            </tr>
+            <tr>
+              <td align="center"><b>M5</b></td>
+              <td align="center">Oftalmologista</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+      <td width="50%" valign="top">
+        <h3 align="center">Especialidades</h3>
+        <table align="center" border="1" cellspacing="0" cellpadding="8">
+          <thead>
+            <tr bgcolor="#f0f0f0">
+              <th>Especialidade</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center"><b>A</b></td>
+              <td align="center">Dermatologia</td>
+            </tr>
+            <tr>
+              <td align="center"><b>B</b></td>
+              <td align="center">Pediatria</td>
+            </tr>
+            <tr>
+              <td align="center"><b>C</b></td>
+              <td align="center">Urologia</td>
+            </tr>
+            <tr>
+              <td align="center"><b>D</b></td>
+              <td align="center">Oftalmologia</td>
+            </tr>
+            <tr>
+              <td align="center"><b>E</b></td>
+              <td align="center">Neurologia</td>
+            </tr>
+            <tr>
+              <td align="center"><b>F</b></td>
+              <td align="center">Cardiologia</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </table>
