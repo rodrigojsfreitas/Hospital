@@ -14,7 +14,7 @@
     <th style="text-align: center;">Motivo/Importância</th>
   </tr>
   <tr>
-    <td style="text-align: center;"><strong>paciente_id</strong></td>
+    <td align="center"><strong>paciente_id</strong></td>
     <td style="text-align: center;">Identificador único do paciente</td>
     <td style="text-align: center;">Estabelece vínculo entre o exame e o paciente, permitindo rastreabilidade completa dos exames por paciente e construção do histórico médico. Essencial para evitar erros de identificação em resultados críticos.</td>
   </tr>
