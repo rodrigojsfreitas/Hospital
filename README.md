@@ -151,7 +151,7 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
 <tr style="background-color:#E8EAF6">
   <td>
         <!-- <img src="https://img.icons8.com/color/48/000000/hospital-bed.png" width="20"/> Quarto.json -->
-    <a href="./hospital_DB/quartos.json"><img src="https://img.shields.io/badge/uartos.json-3F51B5?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Quartos.json"/></a>
+    <a href="./hospital_DB/quartos.json"><img src="https://img.shields.io/badge/quartos.json-3F51B5?style=for-the-badge&logo=json&logoColor=white" width="1000" alt="Quartos.json"/></a>
       </td>
   <td>
     <div align="center">
