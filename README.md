@@ -67,7 +67,7 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
       
   <a href="./instrucao_dos_atributos/pacientes.md">Cadastro completo de pacientes</a>
     </div></td>
-  <td>
+  <td align="center">
     <code>uuid_paciente</code>, <code>id_paciente</code>, <code>nome</code>, <code>data_nascimento</code>, <code>documentos (CPF, RG, etc)</code>, <code>contato</code>, <code>endereco</code>, <code>tipo_sanguineo</code>, <code>convenio</code>, <code>prontuario</code>, <code>id_receitas[]</code></td>
 </tr>
 <tr style="background-color:#E8F5E9">
@@ -80,7 +80,7 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
       <img src="https://img.icons8.com/color/48/000000/doctor-male.png" width="54"/>
       <br>  
   <a href="./instrucao_dos_atributos/medicos.md">Perfil dos médicos e especialidades</a></div></td>
-  <td>
+  <td align="center">
 <code>uuid_medico</code>, <code>id_medico</code>, <code>nome</code>, <code>data_nascimento</code>, <code>tipo</code>, <code>especialidades[]</code>, <code>contato</code>, <code>status</code>, <code>em_atividade</code>, <code>fila_de_pacientes[]</code>, <code>documentos (CPF e CRM)</code>, <code>id_consultas[]</code>, <code>id_pacientes[]</code></td>
 </tr>
 <tr style="background-color:#FFF3E0">
@@ -93,7 +93,7 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
       <img src="https://img.icons8.com/color/48/000000/nurse-female.png" width="54"/> 
       <br>
     <a href="./instrucao_dos_atributos/enfermeiras.md">Equipe de enfermagem e atribuições</a></div></td>
-  <td>
+  <td align="center">
     <code>uuid_enfermeira</code>, <code>id_medico</code>, <code>nome</code>, <code>data_nascimento</code>, <code>tipo</code>, <code>especialidades[]</code>, <code>contato</code>, <code>status</code>, <code>documentos (COREN e CPF)</code>, <code>em_atividade</code>, <code>fila_de_pacientes[]</code>, <code>id_consultas[]</code>, <code>id_pacientes[]</code></tr>
 <tr style="background-color:#E0F7FA">
   <td><!--<img src="https://img.icons8.com/color/48/000000/health-checkup.png" width="24"/> <b> Consulta.json</b>-->
@@ -106,7 +106,7 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
     <br>
     
   <a href="./instrucao_dos_atributos/consultas.md">Histórico de atendimentos médicos</a> </div></td>
-  <td>
+  <td align="center">
     <code>id_consulta</code>, <code>id_paciente</code>, <code>id_responsavel[]</code>, <code>especialidade</code>, <code>data_entrada</code>, <code>data_prevista_entrada</code>, <code>data_prevista_saida</code>, <code>data_saida</code></td>
 </tr>
 <tr style="background-color:#F1F8E9">
@@ -119,7 +119,7 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
       <img src="https://img.icons8.com/color/48/000000/microscope.png" width="54"/> <br>
       
   <a href="./instrucao_dos_atributos/exames.md">Procedimentos e diagnósticos</a></div></td>
-  <td>
+  <td align="center">
  <code>paciente_id</code>, <code>id_responsavel</code>, <code>data_entrada</code>, <code>data_prevista_alta</code>, <code>data_efetiva_alta</code>, <code>procedimentos (Procedimento, Exame)</code>, <code>quarto_id</code>, <code>id_dos_responsaveis[]</code>
   </td>
 </tr>
@@ -132,7 +132,7 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
       <img src="https://img.icons8.com/?size=100&id=13HpMwhzW71Q&format=png&color=000000" width="54"/> <br>
       
   <a href="./instrucao_dos_atributos/receitas.md">Prescrições de medicamentos</a></div></td>
-  <td>
+  <td align="center">
 <code>id_receita</code>, <code>nome_medico</code>, <code>documento (CRM)</code>, <code>nome_paciente</code>, <code>id_responsaveis</code>, <code>id_paciente</code>, <code>data_prescrição</code>, <code>data_validade</code>, <code>medicamentos[]</code>, <code>observacao</code>, <code>dispensação</code></td>
 </tr>
 <tr style="background-color:#FFF8E1">
@@ -145,7 +145,7 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
       <img src="https://img.icons8.com/color/48/000000/pills.png" width="54"/> <br>
       
   <a href="./instrucao_dos_atributos/estoque.md">Inventário farmacêutico</a></div></td>
-  <td>
+  <td align="center">
     <code>id_medicamento</code>, <code>medicamento</code>, <code>tipo_receita</code>, <code>dosagem</code>, <code>tarja</code>, <code>restricoes</code>, <code>via</code>, <code>dosagem_maxima</code></td>
 </tr>
 <tr style="background-color:#E8EAF6">
@@ -158,7 +158,7 @@ Nossa base de dados é organizada em documentos JSON, cada um representando uma 
       <img src="https://img.icons8.com/color/48/000000/hospital-bed.png" width="54"/> <br>
       
   <a href="./instrucao_dos_atributos/quartos.md">Gestão de acomodações</a></div></td>
-  <td>
+  <td align="center">
      <code>id_quarto</code>, <code>numero</code>, <code>ala</code>, <code>tipo</code>, <code>capacidade</code>, <code>Disponível</code>, <code>equipamentos</code>, <code>responsaveis</code>, <code>limpeza_status</code>, <code>ultima_limpeza</code>, <code>pacientes_ocupantes (id_paciente, data_entrada, data_saida)</code>, <code>historico_ocupacao (id_paciente, data_entrada, data_saida)</code>, <code>ultima_visita (id_medico, data_visita, observacoes)</code></td>
 </tr>
 </table>
